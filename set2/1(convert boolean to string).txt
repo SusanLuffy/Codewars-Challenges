@@ -1,0 +1,8 @@
+def bool_to_word bool
+  # TODO
+  if bool == false
+  return 'No' 
+  else
+  return 'Yes' 
+  end
+end

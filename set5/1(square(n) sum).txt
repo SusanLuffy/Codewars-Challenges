@@ -1,0 +1,7 @@
+def squareSum(numbers)
+  emp = []
+  numbers.each do |n|
+    emp << n*n
+  end
+  emp.inject(:+)
+end
